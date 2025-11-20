@@ -6,7 +6,7 @@ import (
     "fmt"
     "os/exec"
     "time"
-    "github.com/aarushghosh/task-scheduler/internal/models"
+    "distributed-task-scheduler-go/internal/models"
 )
 
 type TaskExecutor struct {

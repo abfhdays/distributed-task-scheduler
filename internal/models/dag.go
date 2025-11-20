@@ -1,6 +1,8 @@
 package models
 
-import "fmt"
+import (
+    "fmt"  // <-- Add this
+)
 
 type DAG struct {
     Name  string           // DAG name

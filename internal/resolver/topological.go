@@ -2,7 +2,7 @@ package resolver
 
 import (
     "fmt"
-    "github.com/aarushghosh/task-scheduler/internal/models"
+    "distributed-task-scheduler-go/internal/models"
 )
 
 // TopologicalSort returns tasks in executable order
@@ -13,7 +13,7 @@ func TopologicalSort(dag *models.DAG) ([]*models.Task, error) {
         inDegree[name] = 0
     }
     for _, task := range dag.Tasks {
-        for _, dep := range task.Dependencies {
+        for range task.Dependencies {
             inDegree[task.Name]++
         }
     }

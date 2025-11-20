@@ -2,7 +2,8 @@ package queue
 
 import (
     "sync"
-    "github.com/aarushghosh/task-scheduler/internal/models"
+    "distributed-task-scheduler-go/internal/models"
+	"fmt"
 )
 
 type TaskQueue struct {

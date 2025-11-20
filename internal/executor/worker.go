@@ -1,11 +1,10 @@
 package executor
 
 import (
-    "fmt"
     "log"
     "time"
-    "github.com/aarushghosh/task-scheduler/internal/models"
-    "github.com/aarushghosh/task-scheduler/internal/queue"
+    "distributed-task-scheduler-go/internal/models"
+    "distributed-task-scheduler-go/internal/queue"
 )
 
 type Worker struct {

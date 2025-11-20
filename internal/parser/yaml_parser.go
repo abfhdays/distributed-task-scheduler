@@ -3,7 +3,8 @@ package parser
 import (
     "os"
     "gopkg.in/yaml.v3"
-    "github.com/aarushghosh/task-scheduler/internal/models"
+    "distributed-task-scheduler-go/internal/models"
+	
 )
 
 type YAMLTask struct {

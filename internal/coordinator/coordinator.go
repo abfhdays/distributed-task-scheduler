@@ -5,10 +5,10 @@ import (
     "log"
     "sync"
     "time"
-    "github.com/aarushghosh/task-scheduler/internal/models"
-    "github.com/aarushghosh/task-scheduler/internal/queue"
-    "github.com/aarushghosh/task-scheduler/internal/executor"
-    "github.com/aarushghosh/task-scheduler/internal/resolver"
+    "distributed-task-scheduler-go/internal/models"
+    "distributed-task-scheduler-go/internal/queue"
+    "distributed-task-scheduler-go/internal/executor"
+    "distributed-task-scheduler-go/internal/resolver"
 )
 
 type Coordinator struct {
